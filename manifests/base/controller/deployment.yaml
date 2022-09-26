@@ -24,6 +24,11 @@ spec:
             secretKeyRef:
               key: webhook_secret
               name: controller
+        - name: WEBHOOK_PROXY_URL
+          valueFrom:
+            secretKeyRef:
+              name: controller
+              key: webhook_secret
         - name: APP_ID
           valueFrom:
             secretKeyRef:
