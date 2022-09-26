@@ -7,7 +7,7 @@ configurations:
   - .transformers.yaml
 generators:
   - .ksops.yaml
-namespace: "copilot-ops-bot"
+namespace: "copilot-ops"
 patchesStrategicMerge:
   - route.yaml
 images:
