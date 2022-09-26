@@ -12,5 +12,5 @@ patchesStrategicMerge:
   - route.yaml
 images:
   - name: controller
-    newName: "copilot-ops-bot"
-    newTag: v1.0.0
+    newName: "quay.io/copilot-ops/copilot-ops-bot"
+    newTag: latest 
